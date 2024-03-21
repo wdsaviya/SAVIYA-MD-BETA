@@ -1,6 +1,6 @@
 FROM quay.io/sampandey001/secktor
-RUN git clone https://github.com/saviya55/SAVIYA-MD-BETA /root/saviya55
-WORKDIR /root/saviya55/
+RUN git clone https://github.com/wdsaviya/SAVIYA-MD-BETA /root/wdsaviya
+WORKDIR /root/wdsaviya/
 RUN npm install npm@latest
 RUN npm install
 EXPOSE 8000
